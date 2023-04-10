@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,20 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>montserratBold.ttf</string>
+		<string>montserratExtraBold.ttf</string>
+		<string>montserratLight.ttf</string>
+		<string>montserratMedium.ttf</string>
+		<string>montserratRegular.ttf</string>
+		<string>montserratSemiBoldItalic.ttf</string>
+		<string>poppinsBold.ttf</string>
+		<string>poppinsExtraBold.ttf</string>
+		<string>poppinsLight.ttf</string>
+		<string>poppinsMedium.ttf</string>
+		<string>poppinsRegular.ttf</string>
+		<string>poppinsSemiBold.ttf</string>
+	</array>
 </dict>
 </plist>
