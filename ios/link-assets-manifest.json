@@ -1,0 +1,53 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/montserrat/montserratBold.ttf",
+      "sha1": "84158976b050e30c90c9e320689c9ea445b17696"
+    },
+    {
+      "path": "app/assets/fonts/montserrat/montserratExtraBold.ttf",
+      "sha1": "18a25dbfb34021356475d365fecb1f3260afebb4"
+    },
+    {
+      "path": "app/assets/fonts/montserrat/montserratLight.ttf",
+      "sha1": "7816d40c5a8dbdb0e331fc4e0f83f693d5292c4b"
+    },
+    {
+      "path": "app/assets/fonts/montserrat/montserratMedium.ttf",
+      "sha1": "51c3b395d1eaf1cd191f219f7c3c3bed8e7195aa"
+    },
+    {
+      "path": "app/assets/fonts/montserrat/montserratRegular.ttf",
+      "sha1": "685816f5149c1b62a85088828a43f39fb3269c7b"
+    },
+    {
+      "path": "app/assets/fonts/montserrat/montserratSemiBoldItalic.ttf",
+      "sha1": "8fbcd14c212d26a665b135f78767220e32386d24"
+    },
+    {
+      "path": "app/assets/fonts/poppins/poppinsBold.ttf",
+      "sha1": "3bc8164396c3e6c1e4fae0cf2a51ea66381c1c2d"
+    },
+    {
+      "path": "app/assets/fonts/poppins/poppinsExtraBold.ttf",
+      "sha1": "6f007dac8dacf714ddcfaa3132a887e6a71cf792"
+    },
+    {
+      "path": "app/assets/fonts/poppins/poppinsLight.ttf",
+      "sha1": "0eba831cb91221e799ba55fc1b7c1805a0799623"
+    },
+    {
+      "path": "app/assets/fonts/poppins/poppinsMedium.ttf",
+      "sha1": "cf83e7582e60ed83f67c7d68b4f7482ac9fc6958"
+    },
+    {
+      "path": "app/assets/fonts/poppins/poppinsRegular.ttf",
+      "sha1": "52f9413b264e8ecefbbf12830e3dfadebbf72986"
+    },
+    {
+      "path": "app/assets/fonts/poppins/poppinsSemiBold.ttf",
+      "sha1": "bb68fa19e20495d26a20308b90712bd2c6150642"
+    }
+  ]
+}
