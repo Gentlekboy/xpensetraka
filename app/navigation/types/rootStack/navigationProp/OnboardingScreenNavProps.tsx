@@ -1,7 +1,7 @@
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../RootStackParamList';
 
-export type TestScreenNavProps = NativeStackScreenProps<
+export type OnboardingScreenNavProps = NativeStackScreenProps<
   RootStackParamList,
-  'TestScreen'
+  'OnboardingScreen'
 >;

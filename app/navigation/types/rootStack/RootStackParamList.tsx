@@ -1,4 +1,4 @@
 export type RootStackParamList = {
-  TestScreen: undefined;
+  OnboardingScreen: undefined;
   TestTwoScreen: undefined;
 };
