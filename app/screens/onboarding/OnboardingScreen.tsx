@@ -62,7 +62,7 @@ const OnboardingScreen = ({navigation}: OnboardingScreenNavProps) => {
         onPressNext={() =>
           nextSlide(width, currentSlideIndex, ref, setCurrentSlideIndex)
         }
-        onPressGetStarted={() => navigation.replace("TestTwoScreen")}
+        onPressGetStarted={() => navigation.replace("SignUpScreen")}
       />
     </SafeAreaView>
   );

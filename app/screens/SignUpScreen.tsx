@@ -1,8 +1,8 @@
 import {Pressable, StyleSheet, Text, View} from "react-native";
 import React from "react";
-import {TestTwoScreenNavProps} from "../navigation/types/rootStack/navigationProp/TestTwoScreenNavProps";
+import { SignUpScreenNavProps } from "../navigation/types/rootStack/navigationProp/SignUpScreenNavProps";
 
-const TestTwoScreen = ({navigation}: TestTwoScreenNavProps) => {
+const SignUpScreen = ({navigation}: SignUpScreenNavProps) => {
   return (
     <View>
       <Pressable onPress={() => navigation.navigate("OnboardingScreen")}>
@@ -12,6 +12,6 @@ const TestTwoScreen = ({navigation}: TestTwoScreenNavProps) => {
   );
 };
 
-export default TestTwoScreen;
+export default SignUpScreen;
 
 const styles = StyleSheet.create({});
