@@ -14,9 +14,6 @@ export const styles = StyleSheet.create({
   inputStyle: {
     marginVertical: 10,
   },
-  checkboxContainer: {
-    marginVertical: 20,
-  },
   orWith: {
     fontSize: 14,
     fontFamily: montserrat500,
@@ -32,5 +29,15 @@ export const styles = StyleSheet.create({
   },
   hasAccount: {
     marginVertical: 20,
+  },
+  loginButton: {
+    marginTop: 20,
+  },
+  forgotPassword: {
+    fontSize: 14,
+    fontFamily: montserrat500,
+    color: "#7F3DFF",
+    textAlign: "right",
+    marginTop: 10,
   },
 });

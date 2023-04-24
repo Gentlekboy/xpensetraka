@@ -1,16 +1,14 @@
 import {ScrollView, Text, View} from "react-native";
 import React, {useState} from "react";
-import {SignUpScreenNavProps} from "../../navigation/types/rootStack/navigationProp/SignUpScreenNavProps";
 import InputField from "../../components/inputFields/InputField";
 import PasswordInputField from "../../components/inputFields/PasswordInputField";
-import CheckboxWithDescription from "../../components/checkbox/CheckboxWithDescription";
 import Button from "../../components/button/Button";
 import GoogleIcon from "../../assets/svg/googleIcon.svg";
 import HasAccount from "../../components/has_account/HasAccount";
 import {styles} from "./styles";
+import {LoginScreenNavProps} from "../../navigation/types/rootStack/navigationProp/LoginScreenNavProps";
 
-const SignUpScreen = ({navigation}: SignUpScreenNavProps) => {
-  const [name, setName] = useState("");
+const LoginScreen = ({navigation}: LoginScreenNavProps) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -21,13 +19,6 @@ const SignUpScreen = ({navigation}: SignUpScreenNavProps) => {
       style={{backgroundColor: "#FFF"}}
       contentContainerStyle={styles.scrollview}>
       <View style={styles.container}>
-        <InputField
-          inputValue={name}
-          placeholder="Name"
-          onChangeText={name => setName(name)}
-          inputStyle={styles.inputStyle}
-        />
-
         <InputField
           inputValue={email}
           placeholder="Email"
@@ -44,28 +35,23 @@ const SignUpScreen = ({navigation}: SignUpScreenNavProps) => {
           setHidePassword={() => setIsPasswordHidden(!isPasswordHidden)}
         />
 
-        <CheckboxWithDescription
-          isCheckboxTicked={false}
-          onCheck={() => {}}
-          onPressTAndC={() => {}}
-          containerStyle={styles.checkboxContainer}
-        />
+        <Text style={styles.forgotPassword}>Forgot Password?</Text>
 
-        <Button buttonText="Sign Up" />
+        <Button buttonText="Login" style={styles.loginButton} />
 
         <Text style={styles.orWith}>Or with</Text>
 
         <Button
-          buttonText="Sign Up with Google"
+          buttonText="Login with Google"
           icon={<GoogleIcon width={28} height={28} />}
           style={styles.googleButton}
           textStyle={styles.googleButtonText}
         />
 
         <HasAccount
-          firstText="Already have an account? "
-          secondText="Login"
-          onPressSecondText={() => navigation.navigate("LoginScreen")}
+          firstText="Don't have an account yet? "
+          secondText="Sign Up"
+          onPressSecondText={() => navigation.navigate("SignUpScreen")}
           style={styles.hasAccount}
         />
       </View>
@@ -73,4 +59,4 @@ const SignUpScreen = ({navigation}: SignUpScreenNavProps) => {
   );
 };
 
-export default SignUpScreen;
+export default LoginScreen;
