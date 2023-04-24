@@ -3,6 +3,7 @@ import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {RootStackParamList} from "../types/rootStack/RootStackParamList";
 import OnboardingScreen from "../../screens/onboarding/OnboardingScreen";
 import SignUpScreen from "../../screens/signUp/SignUpScreen";
+import LoginScreen from "../../screens/login/LoginScreen";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -15,6 +16,12 @@ const RootStack = () => {
         name="SignUpScreen"
         component={SignUpScreen}
         options={{headerShown: true, title: "Sign Up"}}
+      />
+
+      <Stack.Screen
+        name="LoginScreen"
+        component={LoginScreen}
+        options={{headerShown: true, title: "Login"}}
       />
     </Stack.Navigator>
   );

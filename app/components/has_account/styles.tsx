@@ -1,5 +1,5 @@
 import {StyleSheet} from "react-native";
-import {montserrat500, montserrat800} from "../../utils/fonts/montserrat";
+import {montserrat500} from "../../utils/fonts/montserrat";
 
 export const styles = StyleSheet.create({
   signUpContainer: {
@@ -9,13 +9,13 @@ export const styles = StyleSheet.create({
   },
   noAccountText: {
     fontSize: 14,
-    color: "#000",
+    color: "#91919F",
     fontFamily: montserrat500,
   },
   signUpText: {
     fontSize: 14,
-    color: "#000",
-    fontFamily: montserrat800,
+    color: "#7F3DFF",
+    fontFamily: montserrat500,
     marginLeft: 5,
   },
 });
